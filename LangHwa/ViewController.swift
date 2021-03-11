@@ -7,6 +7,19 @@
 
 import UIKit
 
+class SideMenuViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+    
+
+}
+
+import UIKit
+import AuthenticationServices
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -15,5 +28,10 @@ class ViewController: UIViewController {
     }
 
 
+}
+
+extension ViewController {
+    @IBAction func cancelToViewController(_ segue: UIStoryboardSegue){
+    }
 }
 
